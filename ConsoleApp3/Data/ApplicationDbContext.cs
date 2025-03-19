@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using HotellApp.Models;
 using System.IO;
@@ -38,6 +38,7 @@ namespace HotellApp.Data
                 optionsBuilder.UseSqlServer(connectionString); // Konfigurera för att använda SQL Server
             }
         }
-    }
+    } 
+
 }
 
