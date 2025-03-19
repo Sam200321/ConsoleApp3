@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using HotellApp.Models;
 
@@ -126,5 +126,3 @@ class Program
         }
     }
 }
-
-
